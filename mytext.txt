@@ -1,0 +1,7 @@
+Hello world
+how are you? Is everything okay.
+so finally here we are and using C++
+it is a great language and it is also used 
+for gaming. It was developed by bjarne stroustrup
+in 1996 in AT and T bells lab. C++ is also called
+C with classes.

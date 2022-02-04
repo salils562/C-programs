@@ -1,0 +1,6 @@
+********* Report *************
+I learned basics of C++ from study material.
+like:- installation of IDE, data-types, loops,
+input-output, type-casting of variables, referecing of variables. And 
+also other than study material i visited more for learining more 
+topics like arrays, pointers, fucntions, OOPs concept, etc.

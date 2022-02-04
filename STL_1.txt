@@ -1,0 +1,23 @@
+*****Introduction to STL*****
+STL stands for standard template library.
+(library of generic class and functions)
+
+Why use STL?
+ans= we are reusing well tested components.
+
+components of STL:-
+*Containers- Stores data (use template classes)
+*Algorithms 
+*Iterators - Object points to an element in a Containers.
+STL is used because its a good
+idea not to re-invent the wheel.
+
+There are 3 types of Containers in STL:-
+1) Sequence Containers.--> Stores data in Linear fashion 
+2) Associative Containers. --> Direct access (example- set, multi-set)
+3) Derived Containers. --> Real world modeling. (example - stack,queue,priority-queue)
+
+When to use which?
+Sequence Containers --> random access is fast whereas, insertion and deletion is slow.
+Associative Containers --> All operations are fast execpt random access.
+Derived Containers --> Depends --> data structure.

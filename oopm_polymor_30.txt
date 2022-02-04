@@ -1,0 +1,11 @@
+******Polymorphism******
+C++ polymorphism
+
+meaning of polymorphism is that :=
+-one name and multiple forms
+
+polymorphism are of two types:-
+1) compile time polymorphism. (function overloading and operator overloading).
+2) run time polymorphism. (virtual functions).
+
+

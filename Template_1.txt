@@ -1,0 +1,13 @@
+
+syntax for templates:
+
+template <class T>
+class vector{
+    T* arr;
+}
+T can be int, float , char ,etc.
+ 
+Why use templates?
+beacause i follow DRY priciple.
+Generic programming.Template is mostly used in 
+competitive programming.

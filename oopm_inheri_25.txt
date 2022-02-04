@@ -1,0 +1,44 @@
+********CONSTURCTORS IN DERIVED CLASSES*******
+
+1) we can use constructors in derived classes in C++.
+
+2) if base class constructors does not have any arguments, there is no need
+of any constructor in derived class.
+
+3)But if there are one or more arguments in the base class constructor,
+derived class need to pass arguments to the base class constructor.
+
+4) If both base and derived classes have constructors, base class constructor
+is executed first.
+
+*********CONSTURCTORS IN MULTIPLE INHERITENCE*********
+
+1) In multiple inheritence, base classes are constructed in the order in which 
+they appear in the class declaration.
+
+2) In multilevel inheritence, the constructors are executed in the order of inheritence.
+
+****** SPECIAL CASE OF VIRTUAL BASE CLASS *******
+1) The constructors for virtual base classes are invoked before an 
+nonvirtual base class.
+2) If there are multiple virtual base classes, they are invoked in 
+the order declared.
+3) Any non-virtual base class are then constructed before the derived
+class constructor is executed.
+
+/* ORDER OF EXECUTION OF CONSTURCTORS
+case 1: 
+class B: public A {
+    //order of execution of constructor - first A() then B()
+};
+
+case 2:
+class A: public B,public C{
+    //order of execution of constructor -> B() then C() and A()
+}
+
+case 3:
+class A:public B,virtual public C{
+// Order of execution of constructor -> 
+C() then B() and A()
+};
